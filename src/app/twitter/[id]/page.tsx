@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props) {
       title: `Page with id ${id}`,
       description: `Some description for page with ID ${id}`,
       card: "summary_large_image",
-      image: await getImageAddress(),
+      images: [await getImageAddress()],
     },
   };
 }
