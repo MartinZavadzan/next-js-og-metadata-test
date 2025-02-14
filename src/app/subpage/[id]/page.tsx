@@ -9,7 +9,9 @@ type Props = {
     return {
       title: `Page with id ${id}`,
       description: `Some description for page with ID ${id}`,
-      image: await getImageAddress(),
+      openGraph: {
+        images: await getImageAddress(),
+      },
     }
   }
 
