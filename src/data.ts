@@ -1,0 +1,1 @@
+export const getImageAddress = async () => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9MagkuGc5nFUrjBzZ-V8R93ntAPXpQd_2_A&s";
